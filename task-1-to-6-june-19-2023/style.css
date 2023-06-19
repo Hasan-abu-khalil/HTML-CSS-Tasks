@@ -1,0 +1,37 @@
+
+body{
+    background: rgb(253, 253, 207);
+}
+
+span{
+    background: rgba(255, 166, 0, 0.4);
+    padding: 3px ;
+}
+samp{
+    background: rgba(255, 255, 0, 0.4);
+    padding: 3px ;
+
+}
+.container div{
+    margin: 10px 0;
+    width: 1000px;
+    padding: 10px;
+}
+.x {
+    border: 2px solid #999;
+    background-color: #fff;
+}
+.y{
+    border: 2px solid #000 ;
+    background-color: #fff;
+
+}
+
+.z{
+    border: 3px dotted red;
+    background-color: #fff;
+    color: red;
+}
+.z p {
+    border: 2px dashed red;
+}
