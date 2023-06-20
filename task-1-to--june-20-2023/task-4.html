@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            border: 1px dotted #000;
+            width:fit-content;
+            
+        }
+        div p {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        div span{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .relative span{
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+        .absolute{
+            position: relative;
+        }
+        .absolute span{
+            position: absolute;
+            left: 5px;
+            top: 30px;
+        }
+       
+
+        
+    </style>
+</head>
+<body>
+
+    <h3>position:static</h3>
+    <div class="static">
+        <p>one</p>
+        <span>tow</span>
+        <p>three</p>
+        <p>four</p>
+    </div>
+
+    <h3>position:relative</h3>
+    <div class="relative">
+        <p>one</p>
+        <span>tow</span>
+        <p>three</p>
+        <p>four</p>
+    </div>
+
+    <h3>position:absolute</h3>
+    <div class="absolute">
+        <p>one</p>
+        <span>tow</span>
+        <p>three</p>
+        <p>four</p>
+    </div>
+    
+</body>
+</html>
