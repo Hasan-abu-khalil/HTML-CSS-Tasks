@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.num{
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 100px;
+    color: #fff;
+}
+
+.num1{
+    background:green ;
+}
+.num2{
+    background:yellow ;
+}
+.num3{
+    background:purple ;
+}
+.num4{
+    background:gray ;
+}
+.num5{
+    background:blue ;
+}
+.num6{
+    background:orange ;
+}
+.num7{
+    background: pink;
+}
+.num8{
+    background: red;
+}
+.num9{
+    background:brown ;
+}
