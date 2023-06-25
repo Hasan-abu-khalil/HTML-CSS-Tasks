@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+hr{
+    margin: 10px 0;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 3s;
+}
+
+.blue:hover{
+    width: 400px;
+}
+
+
+
+.pink{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transition: all 3s;
+}
+
+.pink:hover{
+    width: 400px;
+    height: 400px;
+}

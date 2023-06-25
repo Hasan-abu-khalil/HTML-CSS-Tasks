@@ -1,0 +1,59 @@
+
+div{
+    position: relative;
+    left: 200px;
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    animation: anim 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anim{
+    0%{
+        left: 200px;
+        top: 0;
+
+    }
+    30%{
+        background: linear-gradient(green,rgb(23, 213, 242));
+    }
+
+    25%{
+        top: 0;
+        left: 800px;
+    }
+
+    48%{
+        background: linear-gradient(rgb(45, 203, 247),blue);
+    }
+
+    50%{
+        top: 400px;
+        left: 800px;
+    }
+    60%{
+        background: linear-gradient(blue,rgb(205, 248, 12));
+    }
+    70%{
+        background: yellow;
+    }
+    75%{
+        left: 0;
+        top: 400px;
+    }
+    80%{
+        background: rgb(170, 82, 15);
+    }
+
+    90%{
+        left: 0;
+        top: 0;
+    }
+    95%{
+        background: linear-gradient(red,green);
+    }
+    
+    
+}
